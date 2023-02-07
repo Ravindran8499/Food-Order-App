@@ -7,7 +7,6 @@ import AvailableMeals from "./AvailableMeals/AvailableMeals";
 const Meals = () => {
   return (
     <Fragment>
-      <h1>Hello meals Components</h1>
       <MealsSummary />
       <AvailableMeals />
     </Fragment>
