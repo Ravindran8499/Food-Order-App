@@ -5,6 +5,7 @@ import MealItemImage from "../MealItemImage/MealItemImage";
 import "./MealsItem.css";
 
 const MealsItem = (props) => {
+  const price = `$${props.price}`;
   return (
     <li className="meal">
       <div>
@@ -13,9 +14,9 @@ const MealsItem = (props) => {
           <MealItemImage src={props.image} alt={props.name} />
         </div>
       </div>
-      <p className="description">{props.description}</p>
+      <p className="description desc">{props.description}</p>
       <span className="price">
-        <p>{props.price}</p>
+        <p>{price}</p>
       </span>
       <div>
         <MealsItemForm />

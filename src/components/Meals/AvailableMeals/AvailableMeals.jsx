@@ -38,6 +38,31 @@ const DUMMY_MEALS = [
     image:
       "https://img.bestrecipes.com.au/NMaajcQw/w643-h428-cfill-q90/br/2019/05/1980-gut-loving-green-breakfast-bowl-diabetic-friendly-952243-1.jpg",
   },
+  {
+    id: "m5",
+    name: "Idli Sambhar",
+    description: "Healthy...and fluffy Rice cakes to make your day.",
+    price: 20.99,
+    image:
+      "https://foodhistoria.com/wp-content/uploads/2020/09/099000895e9a53b62d85c46c4d0d62e4_thumb_1200-1200x900.jpg",
+  },
+  {
+    id: "m6",
+    name: "Dosai",
+    description: "A thin pancake in South Indian cuisine..",
+    price: 14.99,
+    image:
+      "https://www.pbs.org/food/wp-content/blogs.dir/2/files/2013/08/nk-wgbh-masala-dosa640x360.jpg",
+  },
+  {
+    id: "m7",
+    name: "Dabeli",
+    description:
+      "A snack made with sweet and spicy potato filling in buns with crunchy peanuts, pomegranate seeds, tangy tamarind.",
+    price: 20.99,
+    image:
+      "https://cookingfromheart.com/wp-content/uploads/2017/06/Kutchi-Dabeli-8.jpg",
+  },
 ];
 const AvailableMeals = () => {
   const mealsItems = DUMMY_MEALS.map((meal) => {
@@ -56,7 +81,6 @@ const AvailableMeals = () => {
       <Card>
         <ul>{mealsItems}</ul>
       </Card>
-      ;
     </div>
   );
 };
